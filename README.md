@@ -11,6 +11,7 @@ AQI application shows the Air Quality Index of indian cities. The data is refres
 
 ## App Architecture
 ![Imgur](https://imgur.com/ujG5UjF.jpg)
+
 The architecture used for this application is MVVM. The activities use viewModel functions to open a websocket channel via a repository.
 The data received from the socket is sent to the viewmodel using Flows. I have used flows here because we have the data coming at a regular interval and we have to make sure that the data is updated only when the app is ready. Flows are known for handling back pressure, the producer emits the data when the collector is ready.
 The data is saved to local DB when received. The list is then updated via DB. The DB helps to contain old data even when the new ones are received.
