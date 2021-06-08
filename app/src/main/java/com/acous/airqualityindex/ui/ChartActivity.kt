@@ -11,6 +11,7 @@ import androidx.lifecycle.Observer
 import com.acous.airqualityindex.R
 import com.acous.airqualityindex.data.CityAqi
 import com.acous.airqualityindex.util.Status
+import com.github.mikephil.charting.components.Description
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
@@ -123,6 +124,9 @@ class ChartActivity : AppCompatActivity() {
         chart_aqi.axisRight.isEnabled = false
         chart_aqi.xAxis.textSize = 8f
         chart_aqi.legend.isEnabled = false
+        var desc = Description()
+        desc.text = """${getString(R.string.chart_desc)} ${cityAqi.city}"""
+        chart_aqi.description = desc
         chart_aqi.setTouchEnabled(true)
         chart_aqi.xAxis.position = (XAxis.XAxisPosition.BOTTOM)
         chart_aqi.setDrawGridBackground(false)
