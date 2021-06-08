@@ -1,6 +1,7 @@
 ![Imgur](https://imgur.com/lXhXOim.jpg)
 # AQI
 AQI application shows the Air Quality Index of indian cities. The data is refreshed realtime. The application allows us to see realtime chart of the data at custom interval.
+It took 2 and a half days to complete the app. The background used in the app is self designed in Adobe photoshop.
 
 ## App use case
 - Connect to the websocket and fetch the updated list. The list will contain cities and the AQI value for those cities.
