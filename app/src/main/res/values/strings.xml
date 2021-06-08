@@ -6,6 +6,7 @@
     <string name="seconds_remaining">Seconds for next value</string>
     <string name="interval_label">Refresh Seconds</string>
     <string name="refresh">Refresh</string>
+    <string name="chart_desc">Air quality index of </string>
     <string name="next_interval">The interval will be applicable from next cycle</string>
 
     <string-array name="seconds_interval">
