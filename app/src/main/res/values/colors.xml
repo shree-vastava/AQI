@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_graph_circle">#DA5151</color>
+    <color name="color_clock">#3C89C8</color>
+    <color name="color_graph_line">#D35555</color>
+    <color name="aqi_good">#3C8E2A</color>
+    <color name="aqi_satistactory">#84AC62</color>
+    <color name="aqi_moderate">#D8D50E</color>
+    <color name="aqi_poor">#DF5C05</color>
+    <color name="aqi_vpoor">#D35555</color>
+    <color name="aqi_severe">#800D0D</color>
+    <color name="color_last_updated">#979797</color>
+
+
+</resources>

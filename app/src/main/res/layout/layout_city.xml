@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view_indicator"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_40sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/tv_last_updated"/>
+
+
+            <TextView
+                android:id="@+id/tvCityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/railway_bold"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view_indicator"
+                android:layout_marginLeft="@dimen/_20sdp" />
+
+
+            <TextView
+                android:id="@+id/tvAqiValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/mont_regular"
+                app:layout_constraintTop_toBottomOf="@+id/tvCityName"
+                app:layout_constraintStart_toStartOf="@+id/tvCityName"/>
+
+            <TextView
+                android:id="@+id/tv_last_updated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_10ssp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/color_last_updated"
+                android:fontFamily="@font/railway_semi_bold"
+                app:layout_constraintTop_toBottomOf="@+id/tvAqiValue"
+                app:layout_constraintStart_toStartOf="@+id/tvCityName" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AirQualityIndex</string>
+    <string name="graph_description">The graph shows the air quality index at an interval of 2 seconds.</string>
+    <string name="city_aqi">CityAqi</string>
+    <string name="seconds_remaining">Seconds for next value</string>
+    <string name="interval_label">Refresh Seconds</string>
+    <string name="refresh">Refresh</string>
+    <string name="next_interval">The interval will be applicable from next cycle</string>
+
+    <string-array name="seconds_interval">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+</resources>
